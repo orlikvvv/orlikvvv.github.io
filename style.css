@@ -1,0 +1,194 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*
+* Заголовок
+*/
+
+.header {
+    background-image: url(img/top.png);
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    display: inline-block;
+    font: 20pt tahoma;
+    margin-left: 50px;
+    margin-top: 18px;
+    color: white;
+    height: 60px;
+}
+
+span.title::first-letter {
+    background: white;
+    color: #1a6a6d;
+    padding: 2px 4px;
+    margin: 2px;
+    border-radius: 6px;
+}
+
+/*
+* Верхнее меню
+*/
+
+.menu-top {
+    font: 16pt arial;
+    margin-right: 50px;
+    display: flex;
+}
+
+
+.menu-top a {
+    display: inline-block;
+    color: white;
+    height: 50px;
+    padding: 20px 25px 0px;
+}
+
+.menu-top .menu-item:hover a {
+    background: #1b686b;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*
+* Левое меню
+*/
+
+.sidebar-left {
+    float: left;
+    font: 16pt arial;
+    width: 220px;
+    padding: 0px;
+    margin-left: 40px;
+}
+
+.menu-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-left a {
+    display: inline-block;
+    color: #5e7a6f;
+    padding: 8px;
+    width: 204px;
+}
+
+
+.menu-left .menu-item:hover {
+    background-color: #dedede;
+}
+
+.main {
+    width:900px;
+    background-image: url(img/fon.png);
+    background-repeat: repeat-y;
+    margin-left: 260px;
+}
+
+.online {
+    background-color: #dedede;
+    padding: 5px;
+
+}
+
+.nick {
+    display: inline-block;
+    font: 16pt tahoma;
+    color: #1a6a6d;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+/*
+* Аватарка
+*/
+
+.lenta-left {
+    float: left;
+}
+
+.avatar {
+    width: 280px;
+    margin: 10px;
+}
+
+.lenta-right {
+    margin-left: 300px;
+
+}
+
+.about {
+    display: flex;
+}
+
+.info-left {
+    width: 200px;
+}
+
+.info-right {
+    color: #1a6a6d;
+    margin-right: 80px;
+}
+
+p {
+    font: 14pt arial;
+}
+
+.edit-page {
+    margin-left: 20px;
+    color: #1a6a6d;
+}
+
+.top-menu {
+    display: inline-block;
+    background-color: #dedede;
+    width: 100%;
+}
+
+/*
+* Галееря
+*/
+
+.gallery {
+    display: flex;
+}
+
+.gallery img {
+    margin: 3px;
+}
+
+/*
+* Футер
+*/
+
+
+.footer {
+    background-color: #dedede;
+    padding: 1px;
+    text-align: center;
+    margin-bottom: 120px;
+}
